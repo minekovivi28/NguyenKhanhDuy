@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShuFilm</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.13.1-web/css/all.min.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vào web trên ứng dựng ShuFifm
+                            <div class="header__qr">
+                                <img src="./assets/img/qrcode.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/chplay.png" alt="CHplay" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/appstore.png" alt="Appstore" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            Kết nối
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="fab fa-instagram-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="fas fa-bell"></i> Thông báo
+
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://tranthinhlam.com/wp-content/uploads/2019/09/icon-tick-xanh-fb.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Developer Nguyễn Khánh Duy</span>
+                                                <span class="header__notify-descriotion">Tiểu sử</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://www.iconarchive.com/download/i90204/icons8/windows-8/Cinema-Spiderman-Old.ico" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">SpiderMan Dead in warstar</span>
+                                                <span class="header__notify-descriotion">Đón xem tại Shufilm</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://tranthinhlam.com/wp-content/uploads/2019/09/icon-tick-xanh-fb.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Tải app ShuFilm để xem phim mượt mà hơn</span>
+                                                <span class="header__notify-descriotion">Ấn để xem thông tin app</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="fas fa-question-circle"></i> Trợ giúp
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng kí</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <div class="container">
+
+        </div>
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+
+    <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+
+            <!-- Authen form-->
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng kí</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Đồng ý với chúng tôi
+                            <a href="" class="auth-form__text-link">Điều khoản web phim</a> &
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÍ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--witch-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i> Kết nối với Facebook</a>
+                    <a href="" class="auth-form__socials--google btn btn--witch-icon">
+                        <i class="fab fa-google"></i> Kết nối với Google</a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
