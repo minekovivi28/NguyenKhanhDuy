@@ -96,25 +96,118 @@
                         <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
                     </ul>
                 </nav>
+
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <img src="./assets/img/Logo.jpg" alt="" class="header__logo-img">
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm phim">
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">spider man</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">diệp vấn</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">utc2 worldwar trailer</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong web</span>
+                            <i class="fas fa-chevron-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item haeder__search-option-item--active">
+                                    <span>Trong Web</span>
+                                    <i class="far fa-check-square"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài Web</span>
+                                    <i class="far fa-check-square"></i>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+
+                    <!--tu phim-->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon far fa-plus-square"></i>
+                            <div class="header__cart-list header__cart-list--no-cart">
+                                <img src="./assets/img/no_cart.jpg" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">
+                                    Chưa mua phim nào cả!!!
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
             </div>
 
         </header>
 
-        <div class="container">
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fas fa-list"></i> Danh mục phim
+                            </h3>
 
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Xem nhiều</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Hành động</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Kinh dị</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Tâm lí</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="grid__column-10">
+
+
+                    </div>
+
+                </div>
+            </div>
         </div>
 
         <footer class="footer">
 
+
         </footer>
     </div>
-
-    <div class="modal">
+    <!-- <div class="modal">
         <div class="modal__overlay"></div>
         <div class="modal__body">
 
             <!-- Authen form-->
-            <div class="auth-form">
+    <!-- <div class="auth-form">
                 <div class="auth-form__container">
                     <div class="auth-form__header">
                         <h3 class="auth-form__heading">Đăng kí</h3>
@@ -151,12 +244,20 @@
                         <i class="fab fa-google"></i> Kết nối với Google</a>
                 </div>
 
-            </div>
+            </div>-->
 
 
 
-        </div>
+
+
+
+
+
     </div>
+    </div>
+    </div>
+    </div>
+
 </body>
 
 </html>
