@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShuFilm</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.13.1-web/css/all.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="grid">
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                        Vào web trên ứng dựng ShuFifm
+                        <div class="header__qr">
+                            <img src="./assets/img/qrcode.png" alt="QR code" class="header__qr-img">
+                            <div class="header__qr-apps">
+                                <a href="" class="header__qr-link">
+                                    <img src="./assets/img/chplay.png" alt="CHplay" class="header__qr-download-img">
+                                </a>
+                                <a href="" class="header__qr-link">
+                                    <img src="./assets/img/appstore.png" alt="Appstore" class="header__qr-download-img">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__navbar-item">
+                        Kết nối
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--has-notify">
+                        <a href="" class="header__navbar-item-link">
+                            <i class="fas fa-bell"></i> Thông báo
+
+                        </a>
+                        <div class="header__notify">
+                            <header class="header__notify-header">
+                                <h3>Thông báo mới nhận</h3>
+                            </header>
+                            <ul class="header__notify-list">
+                                <li class="header__notify-item header__notify-item--viewed">
+                                    <a href="" class="header__notify-link">
+                                        <img src="https://tranthinhlam.com/wp-content/uploads/2019/09/icon-tick-xanh-fb.png" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Developer Nguyễn Khánh Duy</span>
+                                            <span class="header__notify-descriotion">Tiểu sử</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item header__notify-item--viewed">
+                                    <a href="" class="header__notify-link">
+                                        <img src="https://www.iconarchive.com/download/i90204/icons8/windows-8/Cinema-Spiderman-Old.ico" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">SpiderMan Dead in warstar</span>
+                                            <span class="header__notify-descriotion">Đón xem tại Shufilm</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item">
+                                    <a href="" class="header__notify-link">
+                                        <img src="https://tranthinhlam.com/wp-content/uploads/2019/09/icon-tick-xanh-fb.png" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Tải app ShuFilm để xem phim mượt mà hơn</span>
+                                            <span class="header__notify-descriotion">Ấn để xem thông tin app</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <footer class="header__notify-footer">
+                                <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                            </footer>
+
+                        </div>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
+                            <i class="fas fa-question-circle"></i> Trợ giúp
+                        </a>
+                    </li>
+                    <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">
+                        Đăng kí
+                    </li>
+                    <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                </ul>
+            </nav>
+
+            <div class="header-with-search">
+                <div class="header__logo">
+                    <img src="./assets/img/Logo.jpg" alt="" class="header__logo-img">
+                </div>
+                <div class="header__search">
+                    <div class="header__search-input-wrap">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm phim">
+                        <div class="header__search-history">
+                            <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a href="">spider man</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a href="">diệp vấn</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a href="">utc2 worldwar trailer</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="header__search-select">
+                        <span class="header__search-select-label">Trong web</span>
+                        <i class="fas fa-chevron-down"></i>
+
+                        <ul class="header__search-option">
+                            <li class="header__search-option-item haeder__search-option-item--active">
+                                <span>Trong Web</span>
+                                <i class="far fa-check-square"></i>
+                            </li>
+                            <li class="header__search-option-item">
+                                <span>Ngoài Web</span>
+                                <i class="far fa-check-square"></i>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <button class="header__search-btn">
+                        <i class="header__search-btn-icon fas fa-search"></i>
+                    </button>
+                </div>
+
+                <!--tu phim-->
+                <div class="header__cart">
+                    <div class="header__cart-wrap">
+                        <i class="header__cart-icon far fa-plus-square"></i>
+                        <div class="header__cart-list header__cart-list--no-cart">
+                            <img src="./assets/img/no_cart.jpg" alt="" class="header__cart-no-cart-img">
+                            <span class="header__cart-list-no-cart-msg">
+                                Chưa mua phim nào cả!!!
+                            </span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="watch-film">
+        <div class="watch-film__about">
+
+            <div class="watch-film__about-place1">
+                <div class="watch-film__about--heading">
+                    <h3 class="watch-film__about--name">Trailer IronMan war</h3>
+                    <video src="./assets/Film/IronM.mp4" class="watch-film__video" controls>
+                 
+                    </video>
+
+                </div>
+
+
+                <div class="watch-film__action">
+                    <h3 class="watch-film__title">Cái chết của ironman</h3>
+                    <span class="watch-film__action--view watch-film__action--view-like ">
+                        <i class="watch-film__action--icon far fa-thumbs-up"></i>
+                        100 Lượt like
+                    </span>
+                    <span class="watch-film__action--view">
+                            <i class="watch-film__action--icon far fa-thumbs-down"></i>
+                         90 Lượt dislike
+                        </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="watch-film__about-comment">
+                <span class="watch-film__about-comment-name">
+                    COMMENT
+
+                </span>
+
+                <div class="watch-film__about-comment-in">
+                    <div class="watch-film__about-comment-see">
+                        <i class="watch-film__about-comment-icon far fa-user"></i>
+                        <h4 class="watch-film__about-comment-name">Đức Nguyễn</h4>
+
+                    </div>
+
+                    <div class="watch-film__about-comment-text">
+                        Phim khá hay nhưng diễn hơi quá
+                    </div>
+                </div>
+                <div class="watch-film__about-comment-in">
+                    <div class="watch-film__about-comment-see">
+                        <i class="watch-film__about-comment-icon far fa-user"></i>
+                        <h4 class="watch-film__about-comment-name">Duy</h4>
+
+                    </div>
+
+                    <div class="watch-film__about-comment-text">
+                        Hay
+                    </div>
+                </div>
+                <div class="watch-film__about-comment-in">
+                    <div class="watch-film__about-comment-see">
+                        <i class="watch-film__about-comment-icon far fa-user"></i>
+                        <h4 class="watch-film__about-comment-name">Minh</h4>
+
+                    </div>
+
+                    <div class="watch-film__about-comment-text">
+                        Perfect
+                    </div>
+                </div>
+            </div>
+
+            <div class="watch-film__about-place2">
+                <div class="watch-film__about-place2--qc">
+                    <img src="/assets/img/Qc1.gif" alt="QC" class="watch-film__about-place2--qc--img">
+                    <button class="watch-film__about-place2--qc--comein">Chơi ngay</button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                        </li>
+                        <li class="footer-item"></li>
+                        <a href="" class="footer-item__link">ShuFilm</a>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Giới thiệu</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Giới thiệu</a>
+                        </li>
+                        <li class="footer-item"></li>
+                        <a href="" class="footer-item__link">Điều khoản</a>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">NguyenKhanhDuy</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Giới thiệu</a>
+                        </li>
+                        <li class="footer-item"></li>
+                        <a href="" class="footer-item__link">Liên hệ qua 0852160502</a>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Theo dõi</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-facebook"></i> Facebook
+                            </a>
+                        </li>
+                        <li class="footer-item"></li>
+                        <a href="" class="footer-item__link">
+                            <i class="footer-item__icon fab fa-instagram-square"></i> Instagram
+                        </a>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                    <div class="footer__dowload">
+                        <img src="/assets/img/qrcode.png" alt="Download QR" class="footer__download-qr">
+                        <div class="footer__download-apps">
+                            <a href="" class="footer__download-app-link">
+                                <img src="/assets/img/chplay.png" alt="CHPlay" class="footer__download-app-img">
+                            </a>
+                            <a href="" class="footer__download-app-link">
+                                <img src="/assets/img/appstore.png" alt="AppStore" class="footer__download-app-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="footer__bottom">
+            <div class="grid">
+                <p class="footer__cp">©2020 - Bản quyền thực tập chuyên môn của Duy Mắm </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
